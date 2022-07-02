@@ -1,0 +1,15 @@
+.testimonial-title {
+    position: relative;
+}
+
+.testimonial-title::after {
+    content: "";
+    display: block;
+    width: 435px;
+    height: 2px;
+    background: #5F72BE;
+    left: 180px;
+    top: 50%;
+    position: absolute;
+
+}

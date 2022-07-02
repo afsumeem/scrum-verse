@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Container } from 'react-bootstrap';
+import "./Testimonial.css"
 
 const Testimonials = () => {
     const [testimonials, setTestimonials] = useState([]);
@@ -30,7 +31,7 @@ const Testimonials = () => {
             <Container>
                 <h3
                     style={{ fontSize: "16px", fontWeight: "700", lineHeight: "20px", color: "#5F72BE" }}
-                    className="mt-5"
+                    className="mt-5 testimonial-title"
                 >
                     OUR TESTIMONIALS
                 </h3>
