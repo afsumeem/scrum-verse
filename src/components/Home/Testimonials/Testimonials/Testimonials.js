@@ -18,6 +18,8 @@ const Testimonials = () => {
         arrows: true
     };
 
+    // fetch testimonial data from fakedata
+
     useEffect(() => {
         fetch('./testimonial.json')
             .then(res => res.json())

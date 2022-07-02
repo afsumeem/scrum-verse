@@ -13,7 +13,9 @@ const Facilities = () => {
     return (
         <Container>
             <Row>
-                <Col md={5} className="d-flex flex-column align-self-center">
+                {/* all facilities */}
+
+                <Col md={5} sm={12} className="d-flex flex-column align-self-center mb-4">
                     <h2 className='facility-title'>
                         Start learning with <br /> us right now!
                     </h2>
@@ -24,7 +26,10 @@ const Facilities = () => {
                         ENROLL NOW
                     </Button>
                 </Col>
-                <Col md={7}>
+
+                {/* facilities */}
+
+                <Col md={7} sm={12}>
                     <Row>
                         <Col>
                             <div className='d-flex align-items-center' style={{ marginBottom: "50px" }}>
@@ -47,7 +52,7 @@ const Facilities = () => {
 
                                 </div>
                             </div>
-                            <div className='d-flex align-items-center'>
+                            <div className='d-flex align-items-center mb-4'>
                                 <h5 className='section-title'>
                                     100 k+ Views
                                 </h5>

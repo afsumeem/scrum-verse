@@ -4,6 +4,9 @@ import { Button } from 'react-bootstrap';
 const Contact = () => {
     return (
         <div className='mx-4 p-4 my-5 d-flex justify-content-between align-items-center' style={{ background: "#5F72BE", borderRadius: "12px" }}>
+
+            {/* contact section */}
+
             <div>
                 <h4 className='text-white' style={{ fontSize: "18px", fontWeight: "700" }}>
                     Email Us

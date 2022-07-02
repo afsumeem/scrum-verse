@@ -10,9 +10,11 @@ const Footer = () => {
     return (
         <div style={{ background: "#27282B" }}>
             <div style={{ borderBottom: "1px solid #363636" }} className=" mb-4">
+                {/* footer first section */}
+
                 <Container>
                     <Row>
-                        <Col style={{
+                        <Col md={6} sm={12} style={{
                             borderRight: "1px solid #363636"
                         }}>
                             <h5 style={{ fontSize: "24px", fontWeight: "700", color: "#FFFFFF", marginTop: "40px", marginBottom: "30px" }}>SCRUMVERSE</h5>
@@ -100,6 +102,8 @@ const Footer = () => {
 
                 </Container>
             </div >
+
+            {/* footer mid section */}
 
             <Container>
                 <div className='d-flex justify-content-between pb-3'>

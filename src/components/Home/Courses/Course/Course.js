@@ -8,10 +8,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Course = ({ course }) => {
     const star = <FontAwesomeIcon icon={faStar} />
     return (
-        <Col md={3} sm={6} sx={12} style={{ marginTop: "65px", marginBottom: "65px" }}>
+        <Col md={3} sm={6} xs={12} style={{ marginTop: "65px", marginBottom: "65px" }}>
+
+            {/* course card */}
             <Card className='border border-0 course'>
                 <div className='course-image'>
-                    <Card.Img variant="top" src={course.image} />
+                    <Card.Img variant="top" className='img-fluid' src={course.image} />
                 </div>
 
                 <Card.Body className="course-content">
@@ -28,6 +30,8 @@ const Course = ({ course }) => {
                         </p>
                         <p className='course-rating-star ms-3'>{star}{star}{star}{star}{star}</p>
                     </div>
+
+                    {/* enroll now button */}
                     <Button variant="rounded-pill w-50 enroll-now fw-bold">
                         ENROLL NOW
                     </Button>

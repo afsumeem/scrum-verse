@@ -11,8 +11,14 @@ import Header from '../../Header/Header';
 const Banner = () => {
     return (
         <Row className='m-0 p-0 banner'>
+
+            {/* topbar */}
             <Header />
-            <Col className='banner-content'>
+
+
+            <Col md={6} sm={12} className='banner-content'>
+
+                {/* banner content */}
                 <Container>
                     <p className='bg-white rounded-pill py-1 px-2'
                         style={{ color: "#9921E8", fontSize: "14px", fontWeight: "400", display: "inline" }}
@@ -24,6 +30,8 @@ const Banner = () => {
                     >
                         Unleash Your SCRUM Skills, <br />Grab More Attention To Resume
                     </h2>
+
+                    {/* enroll now button */}
 
                     <Button variant="outline-light rounded-pill" style={{ marginTop: "30px", marginBottom: "45px" }}>ENROLL NOW</Button>
                     <div >
@@ -66,7 +74,9 @@ const Banner = () => {
                 </Container>
 
             </Col>
-            <Col className='banner-image'>
+
+            {/* banner image */}
+            <Col md={6} sm={12} className='banner-image d-md-block d-sm-none'>
                 <img src={image2} className="image-1" alt='' />
                 <img src={image3} className="image-2" alt='' />
                 <img src={image4} className="image-3" alt='' />

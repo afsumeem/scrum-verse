@@ -1,3 +1,3 @@
 # Getting Started with ScrumVerse
 
-Live Site of [ScrumVerse](https://github.com/facebook/create-react-app).
+Live Site of [ScrumVerse](https://scrum-verse.vercel.app/).

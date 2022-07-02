@@ -9,6 +9,7 @@ const Header = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" variant="dark" className='py-4 px-4'>
+                {/* logo */}
 
                 <Navbar.Brand href="#home" className="logodiv">
                     <div className='logo me-4'>
@@ -21,6 +22,8 @@ const Header = () => {
                     </div>
 
                 </Navbar.Brand>
+
+                {/* nav items */}
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -39,6 +42,8 @@ const Header = () => {
                         >BLOG</Nav.Link>
 
                     </Nav>
+
+                    {/* login signup button */}
                     <Nav>
                         <Nav.Link
                             style={{ fontWeight: "700", fontSize: "14px" }}

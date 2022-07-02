@@ -9,6 +9,7 @@ import Testimonials from '../Testimonials/Testimonials/Testimonials';
 const Home = () => {
     return (
         <div>
+            {/* import all compo */}
             <Banner />
             <Courses />
             <Facilities />
