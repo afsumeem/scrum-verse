@@ -20,7 +20,7 @@ const Facilities = () => {
                     <p className='facility-content'>
                         Choose from 100+ online video <br /> courses with new updates.
                     </p>
-                    <Button variant="rounded-pill w-25 enroll-now fw-bold">
+                    <Button variant="rounded-pill w-50 enroll-now fw-bold">
                         ENROLL NOW
                     </Button>
                 </Col>

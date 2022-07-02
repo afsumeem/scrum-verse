@@ -25,7 +25,7 @@ const Testimonials = () => {
 
 
     return (
-        <div style={{ background: "rgba(45, 129, 247, 0.1)" }} className="p-4 my-4">
+        <div style={{ background: "rgba(45, 129, 247, 0.1)" }} className="p-5 my-5">
 
             <Container>
                 <h3
