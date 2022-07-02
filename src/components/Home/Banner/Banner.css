@@ -45,3 +45,22 @@
     height: 580px;
     width: 580px;
 }
+
+.discount {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.discount::after {
+
+    content: "";
+    display: block;
+    margin: auto;
+    width: 32px;
+    height: 1px;
+    background: #ffffff;
+    left: 50%;
+    top: 30px;
+    position: absolute;
+}

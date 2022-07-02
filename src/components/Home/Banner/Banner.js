@@ -27,7 +27,7 @@ const Banner = () => {
 
                     <Button variant="outline-light rounded-pill" style={{ marginTop: "30px", marginBottom: "45px" }}>ENROLL NOW</Button>
                     <div >
-                        <p className='text-white text-center'>10% OFF on all courses* | Offer Valid For</p>
+                        <p className='text-white text-center discount'>10% OFF on all courses* | Offer Valid For</p>
                         <div className='d-flex justify-content-around'>
                             <div
                                 style={{ height: "px", width: "88px", backgroundColor: "rgba(255, 255, 255, 0.1)", borderRadius: "12px" }}
