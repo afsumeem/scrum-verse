@@ -1,49 +1,114 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, FormControl, InputGroup, Row } from 'react-bootstrap';
 import { FiPhoneCall } from 'react-icons/fi';
+import { BiEnvelope } from 'react-icons/bi';
 
 const Footer = () => {
     return (
         <div style={{ background: "#27282B" }}>
-            <div style={{ borderBottom: "1px solid #363636" }}>
+            <div style={{ borderBottom: "1px solid #363636" }} className=" mb-4">
                 <Container>
                     <Row>
                         <Col style={{
                             borderRight: "1px solid #363636"
                         }}>
-                            <h5 style={{ fontSize: "24px", fontWeight: "700", color: "#FFFFFF" }}>SCRUMVERSE</h5>
+                            <h5 style={{ fontSize: "24px", fontWeight: "700", color: "#FFFFFF", marginTop: "40px", marginBottom: "30px" }}>SCRUMVERSE</h5>
                             <p style={{ fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}>
                                 We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.
                             </p>
-                            <Row>
-                                <Col>
+                            <Row className="mt-4 mb-4">
+                                <Col className='d-flex align-items-center'>
+                                    <div
+                                        className=' d-flex align-items-center justify-content-center me-3'
+                                        style={{
+                                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                                        }}
+                                    >
+                                        <FiPhoneCall
+                                            style={{
+                                                color: "#FFFFFF", height: "16px", width: "16px"
+                                            }} />
+                                    </div>
 
-                                    <FiPhoneCall />
-                                    <div>
-                                        <p>Have a question?</p>
-                                        <p>310-437-2766</p>
+                                    < div>
+                                        <p
+                                            style={{ fontSize: "12px", fontWeight: "400", color: "#8C8C8C", margin: "0" }}
+                                        >Have a question?</p>
+                                        <p
+                                            style={{ fontSize: "16px", fontWeight: "500", color: "#FFFFFF" }}
+                                        >310-437-2766</p>
                                     </div>
 
                                 </Col>
-                                <Col>
-
-                                    <FiPhoneCall />
+                                <Col className="d-flex align-items-center">
+                                    <div
+                                        className=' d-flex align-items-center justify-content-center me-3'
+                                        style={{
+                                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                                        }}
+                                    >
+                                        <BiEnvelope
+                                            style={{
+                                                color: "#FFFFFF", height: "16px", width: "16px"
+                                            }} />
+                                    </div>
                                     <div>
-                                        <p>Contact us at</p>
-                                        <p>unreal@outlook.com</p>
+                                        <p
+                                            style={{ fontSize: "12px", fontWeight: "400", color: "#8C8C8C", margin: "0" }}
+                                        >Contact us at</p>
+                                        <p
+                                            style={{ fontSize: "16px", fontWeight: "500", color: "#FFFFFF" }}
+                                        >unreal@outlook.com</p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
-                        <Col>
-                            <h5 style={{ fontSize: "18px", fontWeight: "700", color: "#FFFFFF" }}>Newsletter</h5>
+                        <Col className="ps-4">
+                            <h5 style={{ fontSize: "18px", fontWeight: "700", color: "#FFFFFF", marginTop: "40px", marginBottom: "30px" }}>Newsletter</h5>
                             <p style={{ fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}>
                                 Be the first one to know  about discounts, offers and events weekly in your mailbox. Unsubscribe whenever you like with one click.
                             </p>
+
+                            <InputGroup className="mb-3">
+                                <InputGroup.Text
+                                    style={{
+                                        background: " #343538", border: "none", borderTopLeftRadius: "30px",
+                                        borderBottomLeftRadius: "30px"
+                                    }}
+                                >
+                                    <BiEnvelope
+                                        style={{ color: "#8C8C8C", display: "block", margin: "auto" }}
+                                    />
+                                </InputGroup.Text>
+                                <FormControl aria-label="Enter your Email"
+                                    placeholder="Enter your email"
+                                    style={{ background: " #343538", border: "none" }}
+                                />
+                                <InputGroup.Text
+                                    style={{ background: " #343538", border: "none", borderTopRightRadius: "30px", borderBottomRightRadius: "30px" }}
+                                ><Button className='rounded-pill border border-0'
+                                    style={{ background: "#537CE6" }}
+                                >
+                                        Submit
+                                    </Button></InputGroup.Text>
+                            </InputGroup>
                         </Col>
                     </Row>
 
                 </Container>
+            </div >
+
+            <div>
+                <a href="#">About Us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Press</a>
+                <a href="#">Blogs</a>
+                <a href="#">FAQ</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Terms of use</a>
             </div>
 
 
