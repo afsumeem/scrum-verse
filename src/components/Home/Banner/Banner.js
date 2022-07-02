@@ -14,7 +14,7 @@ const Banner = () => {
             <Header />
             <Col className='banner-content'>
                 <Container>
-                    <p className='bg-white rounded-pill p-1'
+                    <p className='bg-white rounded-pill py-1 px-2'
                         style={{ color: "#9921E8", fontSize: "14px", fontWeight: "400", display: "inline" }}
                     >
                         #MOST TRUSTED CERTIFICATIONS BY THE INDUSTRY
@@ -25,16 +25,20 @@ const Banner = () => {
                         Unleash Your SCRUM Skills, <br />Grab More Attention To Resume
                     </h2>
 
-                    <Button variant="outline-secondary">ENROLL NOW</Button>
-                    <p className='text-white'>10% OFF on all courses* | Offer Valid For</p>
+                    <Button variant="outline-light rounded-pill" style={{ marginTop: "30px", marginBottom: "45px" }}>ENROLL NOW</Button>
+                    <div >
+                        <p className='text-white text-center'>10% OFF on all courses* | Offer Valid For</p>
+
+                    </div>
+
                 </Container>
 
             </Col>
-            <Col className='banner-content'>
-                <img src={image2} alt='' />
-                <img src={image3} alt='' />
-                <img src={image4} alt='' />
-                <img src={image1} alt='' />
+            <Col className='banner-image'>
+                <img src={image2} className="image-1" alt='' />
+                <img src={image3} className="image-2" alt='' />
+                <img src={image4} className="image-3" alt='' />
+                <img src={image1} className="image-4" alt='' />
             </Col>
         </Row>
     );

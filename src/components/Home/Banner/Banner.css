@@ -4,12 +4,44 @@
     height: 700px;
 }
 
-.banner-content {
-    margin-top: 80px;
-}
-
 .banner-title {
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.image-1 {
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    height: 228px;
+    width: 228px;
+}
+
+.image-2 {
+    position: absolute;
+    left: 130px;
+    bottom: 330px;
+    height: 128px;
+    width: 128px;
+}
+
+.image-3 {
+    position: absolute;
+    right: 300px;
+    bottom: 446px;
+    height: 88px;
+    width: 88px;
+}
+
+.image-4 {
+    position: absolute;
+    right: -125px;
+    bottom: -88px;
+    height: 580px;
+    width: 580px;
 }
