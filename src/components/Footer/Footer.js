@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button, Col, Container, FormControl, InputGroup, Row } from 'react-bootstrap';
-import { FiPhoneCall } from 'react-icons/fi';
+import { FiPhoneCall, FiYoutube, FiInstagram, FiTwitter } from 'react-icons/fi';
 import { BiEnvelope } from 'react-icons/bi';
+import { AiOutlineFacebook } from 'react-icons/ai'
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 const Footer = () => {
     return (
@@ -98,18 +101,111 @@ const Footer = () => {
                 </Container>
             </div >
 
-            <div>
-                <a href="#">About Us</a>
-                <a href="#">Jobs</a>
-                <a href="#">Press</a>
-                <a href="#">Blogs</a>
-                <a href="#">FAQ</a>
-                <a href="#">Careers</a>
-                <a href="#">Contact</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Sitemap</a>
-                <a href="#">Terms of use</a>
-            </div>
+            <Container>
+                <div className='d-flex justify-content-between pb-3'>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >About Us</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Jobs</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Press</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Blogs</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >FAQ</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Careers</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Contact</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Privacy Policy</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Sitemap</a>
+                    <a href="/#"
+                        style={{ textDecoration: "none", fontSize: "14px", fontWeight: "400", color: "#8C8C8C" }}
+                    >Terms of use</a>
+                </div>
+
+
+                {/* social icons */}
+
+                <div className="d-flex align-items-center py-4">
+
+                    <div
+                        className=' d-flex align-items-center justify-content-center me-3'
+                        style={{
+                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                        }}
+                    >
+                        <AiOutlineFacebook
+                            style={{
+                                color: "#FFFFFF", height: "16px", width: "16px"
+                            }} />
+                    </div>
+                    <div
+                        className=' d-flex align-items-center justify-content-center me-3'
+                        style={{
+                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                        }}
+                    >
+                        <FiYoutube
+                            style={{
+                                color: "#FFFFFF", height: "16px", width: "16px"
+                            }} />
+                    </div>
+                    <div
+                        className=' d-flex align-items-center justify-content-center me-3'
+                        style={{
+                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                        }}
+                    >
+                        <FiInstagram
+                            style={{
+                                color: "#FFFFFF", height: "16px", width: "16px"
+                            }} />
+                    </div>
+                    <div
+                        className=' d-flex align-items-center justify-content-center me-3'
+                        style={{
+                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                        }}
+                    >
+                        <FiTwitter
+                            style={{
+                                color: "#FFFFFF", height: "16px", width: "16px"
+                            }} />
+                    </div>
+                    <div
+                        className=' d-flex align-items-center justify-content-center me-3'
+                        style={{
+                            borderRadius: "30px", background: "#343538", color: "#FFFFFF", height: "48px", width: "48px"
+                        }}
+                    >
+                        <FaWhatsapp
+                            style={{
+                                color: "#FFFFFF", height: "16px", width: "16px"
+                            }} />
+                    </div>
+                    <div className='ms-auto'>
+                        <p
+                            style={{ fontSize: "12px", fontWeight: "400", color: "#8C8C8C", margin: "0" }}
+                        >© 2021-2022, All Rights Reserved</p>
+
+                    </div>
+                </div>
+
+
+
+            </Container>
 
 
         </div >
