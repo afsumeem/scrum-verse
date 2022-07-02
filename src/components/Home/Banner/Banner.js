@@ -28,6 +28,38 @@ const Banner = () => {
                     <Button variant="outline-light rounded-pill" style={{ marginTop: "30px", marginBottom: "45px" }}>ENROLL NOW</Button>
                     <div >
                         <p className='text-white text-center'>10% OFF on all courses* | Offer Valid For</p>
+                        <div className='d-flex justify-content-around'>
+                            <div
+                                style={{ height: "px", width: "88px", backgroundColor: "rgba(255, 255, 255, 0.1)", borderRadius: "12px" }}
+                            >
+                                <h2 style={{ fontSize: "50px", fontWeight: "700", color: "white", textAlign: "center" }}>02</h2>
+                                <p style={{ fontSize: "14px", fontWeight: "700", color: "white", textAlign: "center" }}
+                                    className="pb-2"
+                                >Hrs.</p>
+
+                            </div>
+
+                            <div
+                                style={{ height: "px", width: "88px", backgroundColor: "rgba(255, 255, 255, 0.1)", borderRadius: "12px" }}
+                            >
+                                <h2 style={{ fontSize: "50px", fontWeight: "700", color: "white", textAlign: "center" }}>58</h2>
+                                <p style={{ fontSize: "14px", fontWeight: "700", color: "white", textAlign: "center" }}
+                                    className="pb-2"
+                                >Mins.</p>
+
+                            </div>
+
+                            <div
+                                style={{ height: "px", width: "88px", backgroundColor: "rgba(255, 255, 255, 0.1)", borderRadius: "12px" }}
+                            >
+                                <h2 style={{ fontSize: "50px", fontWeight: "700", color: "white", textAlign: "center" }}>42</h2>
+                                <p style={{ fontSize: "14px", fontWeight: "700", color: "white", textAlign: "center" }}
+                                    className="pb-2"
+                                >Secs.</p>
+
+                            </div>
+                        </div>
+
 
                     </div>
 
