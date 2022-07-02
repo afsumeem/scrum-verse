@@ -21,19 +21,63 @@
     margin-right: 20px;
 }
 
-.exams {
+.section-cmn {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: rgba(255, 173, 59, 0.1);
     position: relative;
 
 }
 
-.exams img {
+.section-cmn img {
     position: absolute;
     height: 48px;
     width: 48px;
     top: 75px;
     left: 80px;
+}
+
+.newImg {
+    position: absolute;
+    top: 20px;
+    left: 23px;
+
+}
+
+.newImg img {
+    height: 28px;
+    width: 28px;
+}
+
+.eye-icon {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    top: 75px;
+    left: 75px;
+    color: #FE5702;
+}
+
+.exams {
+    background-color: rgba(255, 173, 59, 0.1);
+}
+
+.classes {
+    background: rgba(45, 129, 247, 0.1);
+}
+
+
+.views {
+    background-color: rgba(254, 87, 2, 0.1);
+    ;
+}
+
+
+.lesson {
+    background: rgba(235, 87, 87, 0.1);
+}
+
+
+.lessons {
+    background: rgba(8, 189, 128, 0.1);
 }

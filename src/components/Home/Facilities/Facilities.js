@@ -4,8 +4,9 @@ import "./Facilities.css"
 import examImg from "../../../images/exam.svg";
 import lesson from "../../../images/lesson.svg";
 import lesson2 from "../../../images/lesson2.svg";
-import liveClasses from "../../../images/liveClasses.svg"
-
+import liveClasses from "../../../images/classesnew.svg"
+import liveClassesnew from "../../../images/new.svg";
+import { AiFillEye } from 'react-icons/ai'
 
 
 const Facilities = () => {
@@ -30,7 +31,7 @@ const Facilities = () => {
                                 <h5 className='section-title'>
                                     Live Exams
                                 </h5>
-                                <div className="exams">
+                                <div className="exams section-cmn">
                                     <img src={examImg} alt="" />
                                 </div>
                             </div>
@@ -38,16 +39,20 @@ const Facilities = () => {
                                 <h5 className='section-title'>
                                     LIVE Classes
                                 </h5>
-                                <div className="exams">
-                                    <img src={examImg} alt="" />
+                                <div className="classes section-cmn">
+                                    <img src={liveClasses} alt="" />
+                                    <div className='newImg'>
+                                        <img src={liveClassesnew} alt="" />
+                                    </div>
+
                                 </div>
                             </div>
                             <div className='d-flex align-items-center'>
                                 <h5 className='section-title'>
                                     100 k+ Views
                                 </h5>
-                                <div className="exams">
-                                    <img src={examImg} alt="" />
+                                <div className="views section-cmn">
+                                    <AiFillEye className='eye-icon' />
                                 </div>
                             </div>
 
@@ -57,16 +62,16 @@ const Facilities = () => {
                                 <h5 className='section-title'>
                                     1000+ Lessons
                                 </h5>
-                                <div className="exams">
-                                    <img src={examImg} alt="" />
+                                <div className="lesson section-cmn">
+                                    <img src={lesson2} alt="" />
                                 </div>
                             </div>
                             <div className='d-flex align-items-center mt-4'>
                                 <h5 className='section-title'>
                                     1000+ Lessons
                                 </h5>
-                                <div className="exams">
-                                    <img src={examImg} alt="" />
+                                <div className="lessons section-cmn">
+                                    <img src={lesson} alt="" />
                                 </div>
                             </div>
 
