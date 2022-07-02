@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "001",
+        "course": "Learn SCRUM: The Complete Beginner Course",
+        "name": "Samoy Jain, EX-KPNG",
+        "rating": "4.5",
+        "image": "https://i.ibb.co/2v0m2zT/Rectangle-5.png"
+    },
+    {
+        "_id": "002",
+        "course": "Learn SCRUM: The Complete Beginner Course",
+        "name": "Samoy Jain, EX-KPNG",
+        "rating": "4.5",
+        "image": "https://i.ibb.co/2v0m2zT/Rectangle-5.png"
+    },
+    {
+        "_id": "003",
+        "course": "Learn SCRUM: The Complete Beginner Course",
+        "name": "Samoy Jain, EX-KPNG",
+        "rating": "4.5",
+        "image": "https://i.ibb.co/2v0m2zT/Rectangle-5.png"
+    },
+    {
+        "_id": "004",
+        "course": "Learn SCRUM: The Complete Beginner Course",
+        "name": "Samoy Jain, EX-KPNG",
+        "rating": "4.5",
+        "image": "https://i.ibb.co/2v0m2zT/Rectangle-5.png"
+    }
+]
