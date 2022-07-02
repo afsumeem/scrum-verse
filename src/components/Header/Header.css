@@ -1,0 +1,27 @@
+.logo {
+    position: relative;
+}
+
+.logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.logo2 {
+    position: absolute;
+    top: 17px;
+}
+
+.logo3 {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+.logoTitle {
+    position: absolute;
+    top: 0;
+    left: 45px;
+}
